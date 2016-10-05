@@ -15,10 +15,10 @@ body{
 	font-family: 'Gill Sans MT V1';
 
 }
-body nav, body .slider .indicators{
+body nav, body .slider .indicators, .loaded .ip-header{
 	z-index: 0;
 }
- 
+
 body.layout-switch, body.layout-content{
 	overflow:auto;
 }
@@ -85,6 +85,8 @@ img.logo-splash{
 	margin-top: -41px;
 	background-size: cover;
 	background-repeat: no-repeat;
+	position: relative;
+	z-index: 98;
 }
 .bg-abstract.products , .bg-abstract.partner, .bg-abstract.projects, .bg-abstract.contacts, .bg-abstract.services{
 	margin-top: 0;
@@ -340,6 +342,7 @@ ul.socmed-icon-btm li a i{
 .menu-bottom{
 	max-width: 400px;
     margin: 100px auto;
+
 }
 
 .menu-bottom img{
@@ -495,9 +498,13 @@ ul.socmed-icon-btm li a i{
 .icon-contact img{
 	margin-top: 135px;
 }
-.row.maps-image{
-	min-height: 500px;
-	margin-bottom: 250px;
+.row.maps-image {
+    min-height: 350px;
+    margin-bottom: 20px;
+}
+.row.maps-image #my_office{
+	width: 100%;
+	min-width: 1349px;
 }
 .contacts .sticky-wrapper{
 	top: 44%;
@@ -605,6 +612,7 @@ textarea.materialize-textarea{
     top: 50%;
     left: 3%;
 }
+
 /*nav-toggle*/
 #nav-toggle{
 	margin: 28px;
@@ -695,6 +703,7 @@ footer.page-footer{
     position: absolute;
     width: 100%;
     bottom: 0;
+    z-index: 100;
     background: rgba(0,0,0,0.4);
 }
 footer.page-footer .container{
@@ -831,8 +840,8 @@ div.pagination span.page_current {
   * zoom: 100%;
   
   font-weight: bold;
-  background-color: #fff;
-  color: #666;
+  background-color: #666;
+  color: #fff;
 }
 div.pagination span.page_disabled {
   display: none;

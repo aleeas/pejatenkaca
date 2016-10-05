@@ -104,7 +104,7 @@
     // Google Maps API Key.
     // You'll have to get one for your site from 'http://code.google.com/apis/maps/'
     // if your site makes use of Google maps.
-    define( 'K_GOOGLE_KEY', 'ABQIAAAAD7z_FToS5NSqosnG9No1ABQYPrehWcZJH1ec0SZqipYFbK_nfRT1ryCGKzl5KGpFG3y5jyPe_uClVg' );
+    define( 'K_GOOGLE_KEY', 'AIzaSyAYt-YAO0DVMV3tiMp1gnXqYNfspzjXPGU' );
 
     // Set the following if you use PayPal buttons to sell products.
     // 17.

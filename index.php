@@ -101,11 +101,11 @@
 
 			         <div class="menu-bottom">
 			         	<div class="row clear-mbottom">
-				         	<a href="services.php"><div class="col s6 relative center-align">
+				         	<a href="service.php"><div class="col s6 relative center-align">
 				         		<img src="img/BT Serv 3.png" class="hide-on-med-and-down">
 				         		<img src="img/BT Serv 3 S.png" class="hide-on-large-only">
 				         	</div></a>
-				         	<a href="product.php"><div class="col s6 center-align">
+				         	<a href="products.php"><div class="col s6 center-align">
 				         		<img src="img/BT Prod 3.png" class="hide-on-med-and-down">
 				         		<img src="img/BT Prod 3 S.png" class="hide-on-large-only push-to-right">
 				         	</div></a>

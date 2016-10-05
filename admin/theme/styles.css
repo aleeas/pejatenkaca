@@ -659,7 +659,10 @@ body.login{
 	font-weight:bold;
 	color:#000;
 }
-a#f_prop_image_preview img, a#f_prop_image2_preview img, a#f_serv_image_preview img , a#f_project_image_preview img{
+a#f_prop_image_preview img, a#f_prop_image2_preview img, a#f_serv_image_preview img , {
+	width: auto;
+}
+a#f_project_image_preview img{
 	width: 100%;
 }
 /*
